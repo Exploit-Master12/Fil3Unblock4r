@@ -35,5 +35,12 @@ Now,see here,when I put a URL like that in a file creator,it HAS to come up as a
 Because it's a file,the extension does not show on a file.
 So,yes,it works.
 
+For a fully working version,go to 
+```
+https://github.com/3kh0/ext-remover/blob/main/HaparaBypass-Iframe.html
+```
+Click "download raw file",and open the file.Everything should be unblocked there too.
+
 Follow for more exploits, Exploit-Master12  🙂 =-)
+
 
