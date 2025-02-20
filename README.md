@@ -35,11 +35,25 @@ Now,see here,when I put a URL like that in a file creator,it HAS to come up as a
 Because it's a file,the extension does not show on a file.
 So,yes,it works.
 
-For a fully working version,go to 
+#EVERYTHING ABOVE IS THE VERY FIRST ONE.
+
+
+**VERSION 1***: The half original version,the data:text:html version is this:
+```
+data:text/html;charset=utf-8,<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <title>Google Iframe VPN</title> <link rel="manifest" href="manifest.json" /> <script> if ("serviceWorker" in navigator) { navigator.serviceWorker .register("/sw.js") .then(() => console.log("Service Worker Registered")) .catch((err) => console.error("Service Worker Error:", err)); } let deferredPrompt; window.addEventListener("beforeinstallprompt", (e) => { e.preventDefault(); deferredPrompt = e; document.getElementById("install-btn").style.display = "block"; }); function installPWA() { if (deferredPrompt) { deferredPrompt.prompt(); deferredPrompt.userChoice.then((choice) => { if (choice.outcome === "accepted") { console.log("PWA installed"); } deferredPrompt = null; }); } } </script> </head> <body> <h1>Blobbypass 2.0 <iframe src="https://www.google.com/webhp?igu=1%22%20width=%22100%%22%20height=%22600px%22%20style=%22border:%20none%22%20%3E%3C/iframe%3E%20%3Cbutton%20id=%22install-btn%22%20onclick=%22installPWA()%22%20style=%22display:%20none%22%20%3E%3C/button%3E%20%3C/body%3E%20%3C/html%3E%20Install%20Button%20and%20Unblocked%20iframe%20made%20by%20Viaan%20Gothivrekar%20%3Ca%20href=%22https://github.com/Exploit-Master12%22%20target=%22_blank%22%20%3E(Exploit-Master12%20on%20Github)%3C/a%20%3E
+```
+
+***VERSION 2***For one of the newest working versions,go to 
 ```
 https://github.com/3kh0/ext-remover/blob/main/HaparaBypass-Iframe.html
 ```
 Click "download raw file",and open the file.Everything should be unblocked there too.
+
+***VERSION 3***: THIS IS THE NEWEST FILE VERSION THAT HAS BEEN RELEASED***
+```
+https://jsitor.com/jwi1HzFCKC
+```
+***VERSION 4***: ***GO HERE AND CLICK THE DOWNLOAD BUTTON AND OPEN THE FILE!!!***
 
 Follow for more exploits, Exploit-Master12  🙂 =-)
 
